@@ -1,0 +1,16 @@
+.sidebar__links li {
+  writing-mode: vertical-lr;
+  /* Browsers not below */
+  transform: rotate(-180deg);
+  /* Safari */
+  -webkit-transform: rotate(-180deg);
+  /* Firefox */
+  -moz-transform: rotate(-180deg);
+  /* Opera */
+  -o-transform: rotate(-180deg);
+  /* IE */
+  -ms-transform: rotate(-180deg);
+  margin: 1.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
