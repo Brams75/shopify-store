@@ -10,7 +10,7 @@
   -o-transform: rotate(-180deg);
   /* IE */
   -ms-transform: rotate(-180deg);
-  margin: 1.5rem;
+  margin: 3rem;
   font-size: 1rem;
   font-weight: 700;
 }
