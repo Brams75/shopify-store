@@ -1,14 +1,10 @@
 .circle {
   border: 1px dashed orange;
-  width: 100px;
-  height: 100px;
+  border-style: 2px;
+  width: 85px;
+  height: 85px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-}
-
-.circle p {
-  position: relative;
 }

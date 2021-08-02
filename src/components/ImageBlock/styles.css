@@ -1,0 +1,29 @@
+.imageBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.imageBlock__title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.imageBlock__text {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.buyNow {
+  position: absolute;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  left: 6.5rem;
+  border-bottom: 2px solid black;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
+}

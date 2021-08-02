@@ -7,14 +7,32 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  max-height: 100vh;
 }
 
 main {
-  display: flex;
-  flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-img {
-  width: 750px;
-  height: 750px;
+.App__tag {
+  writing-mode: vertical-lr;
+  /* Browsers not below */
+  transform: rotate(-180deg);
+  /* Safari */
+  -webkit-transform: rotate(-180deg);
+  /* Firefox */
+  -moz-transform: rotate(-180deg);
+  /* Opera */
+  -o-transform: rotate(-180deg);
+  /* IE */
+  -ms-transform: rotate(-180deg);
+  margin: 0 2.5rem;
+  font-size: 11rem;
+  font-weight: 700;
+  color: #e0e0e0;
+  position: fixed;
+  top: 2rem;
+  right: 0;
+  z-index: 1;
 }

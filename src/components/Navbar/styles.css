@@ -1,7 +1,9 @@
 .navbar {
+  font-family: sans-serif;
   display: flex;
   justify-content: space-between;
   padding: 3rem;
+  z-index: 2;
 }
 
 .navbar__logo {
@@ -19,6 +21,8 @@
   align-items: center;
   justify-content: center;
   margin-left: 2rem;
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 
 .navbar__icons {

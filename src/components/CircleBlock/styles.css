@@ -1,0 +1,17 @@
+.circleBlock {
+  position: absolute;
+  top: 0;
+  right: -3rem;
+}
+
+.circleBlock span {
+  position: relative;
+  left: -4rem;
+  top: -3.25rem;
+  text-transform: uppercase;
+  color: orange;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.5rem;
+  background-color: #f0eeef;
+}
